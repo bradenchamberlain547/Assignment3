@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <link href="cssfile.css" rel="stylesheet" />
+</header>
+<body>
+    <h1>Enter the drawing!</h1>
+    <h2>Enter this drawing to be the coolest person ever by answering just a few simple questions: </h2>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="Gender">Gender: </label><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br>
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender"><br><br>
+
+    <label for="date">Today's Date: </label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <div class="animal">
+        <button class="animal2">Favorite Animal: </button>
+        <div class="animal-content">
+          <a href="#">Dog</a>
+          <a href="#">Cat</a>
+          <a href="#">Horse</a>
+          <a href="#">Cow</a>
+          <a href="#">Pig</a>
+        </div>
+      </div><br><br>
+
+      <img src="people.jpg" alt="peoplemap" usemap="#peoplemap">
+
+      <map name="peoplemap">
+        <area shape="rect" coords="20, 80, 190, 350" alt="John" href="john.jpg">
+        <area shape="rect" coords="210, 80, 350, 350" alt="Sarah" href="sarah.jpg">
+        <area shape="rect" coords="480, 50, 600, 400" alt="Jack" href="jack.jpg">
+      </map>
+
+
+      <h1>add image map here</h1>
+
+      <label for="comments">Other Comments?</label><br>
+      <input type="text" id="comments" name="comments"><br><br>
+
+    <input type="submit" value="Submit"><br><br>
+    <input type="reset" value="Reset"><br><br>
+
+
+<p></p>
+    <table>
+        <colgroup>
+            <col span="4" style="background-color:grey">
+          </colgroup>
+          <rowgroup>
+            <row span="2" style="background-color: purple">
+            </rowgroup>
+        <caption>When are you available?</caption>
+        <tbody>
+        <tr>
+            <td>Times</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Friday</td>
+        </tr>
+        <tr>
+            <td>2pm</td>
+            <td rowspan="2">open</td>
+            <td>open</td>
+            <td>closed</td>
+        </tr>
+        <tr>
+            <td>3pm</td>
+            <td rowspan="5">closed</td>
+            <td>open</td>
+        </tr>
+        <tr>
+            <td>4pm</td>
+            <td rowspan="2">closed</td>
+            <td rowspan="5">closed</td>
+        </tr>
+        <tr>
+            <td>5pm</td>
+        </tr>
+        <tr>
+            <td>6pm</td>
+            <td rowspan="2">open</td>
+        </tr>
+        <tr>
+            <td>7pm</td>
+        </tr>
+        <tr>
+            <td>8pm</td>
+            <td>closed</td>
+            <td>open</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
